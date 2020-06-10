@@ -24,7 +24,12 @@
 
     #page-home main h1{
        font-size: 30px;
+    }
 
+    /* Tela do Search  */
+
+    #page-search main .cards{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -39,3 +44,6 @@
         background-position-y: 200px;
     }
 }
+
+
+
