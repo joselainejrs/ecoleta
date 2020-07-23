@@ -1,24 +1,28 @@
 import React from 'react';
 import { Text, View, Image, TouchableOpacity } from 'react-native';
-
-import imglogo from '../../assets/logo.svg';
-// import imghome from '../../assets/home-background.svg';
+import { useNavigation } from '@react-navigation/native';
 
 import { Entypo } from '@expo/vector-icons'; 
 
 import styles from './styles';
-
+import { TextInput } from 'react-native-gesture-handler';
 
 export default function Home() {
+  const navigation = useNavigation();
+
+  function navigateToCreate(){
+    navigation.navigate('Create');
+  }
   return (
     <View style={styles.pagehome}>
 
         <TouchableOpacity
-              onPress={() => {}}
+              onPress={navigateToCreate}
               style={styles.linkcoleta }>
               
-              <Entypo name="login" size={20} color="#2fb86e" />           
+              <Entypo name="login" size={24} color="#2fb86e" />           
               <Text style={styles.btncoleta}>
+
               Cadastre um ponto de coleta
               </Text>
        </TouchableOpacity>
@@ -27,11 +31,12 @@ export default function Home() {
 
         <View style={styles.header}>
 
-            <Image source={imglogo} style={styles.imglogo}/>
+      <Image
+        source={require('../../assets/logo.svg')}
+        style={styles.imglogo}
+       />
 
         </View>
-
-      
 
         <View style={styles.main}> 
 
@@ -41,21 +46,19 @@ export default function Home() {
 
         </View>
 
-      
-
-      <View style={styles.caixabtn}>
-        <TouchableOpacity
-              onPress={() => {}}
-              style={styles.link }>
-
-                <Entypo  name="magnifying-glass" size={35} color="#fff" />
-                <Text style={styles.btn}>
-                Pesquisar pontos de coleta
-                </Text>
-
-        </TouchableOpacity>
-
+      <View style={styles.caixainput} >
+      <Entypo name="magnifying-glass" size={35} color="#fff"/>
+        <TextInput
+          onPress={() => {}}
+          style={styles.input}
+          placeholderTextColor="#fff"
+          placeholder= 'Nome da Cidade'
+          value=""
+          onChangeText="">
+        </TextInput>
       </View>
+      <Text style={styles.info}>
+        Procure pontos de coleta</Text>
 
       <Image
         source={require('../../assets/home-background.svg')}

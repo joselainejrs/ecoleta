@@ -22,11 +22,11 @@ export default StyleSheet.create({
 
       linkcoleta:{          
         flexDirection: 'row', 
-        marginLeft: 150, 
+        marginLeft: 140, 
       },
     
       btncoleta:{ 
-        fontSize: 15,
+        fontSize: 18,
         color: '#322153',
         fontWeight: 500,   
       },
@@ -60,24 +60,28 @@ export default StyleSheet.create({
       maxWidth: 300,
   },
    
-  caixabtn:{
+  caixainput:{
     borderRadius: 8, 
     width: 300,
     height: 50,
     backgroundColor:'#34cb79',
-    marginLeft: 20,
-    marginBottom: 20,
+    margin: 'auto',
+    flexDirection: 'row',
   },
 
-  link:{          
-    flexDirection: 'row', 
-  },
-
-  btn:{
-    padding: 10, 
+  input:{          
     fontSize: 20,
-    color: '#fff',
-    fontWeight: 500,
+    padding: 10,
+    fontWeight: 'bold',
+    fontFamily: 'Arial, Helvetica, sans-serif',
+
+  },
+
+  info:{
+    padding: 2, 
+    fontSize: 15,
+    color: '#322153',
+    textAlign: 'center'
    
   },
   
