@@ -22,3 +22,4 @@ $ npm install --global expo-cli
 $ expo init mobile ecoleta
 $ npm start
 ```
+![Imagem](https://github.com/joselainejrs/ecoleta-font-back/blob/master/mobile/src/assets/apresentacao.jpg)
