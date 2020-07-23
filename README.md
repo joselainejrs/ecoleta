@@ -1,10 +1,8 @@
 
-
-<p align="justify">
 ![Logo](https://github.com/joselainejrs/ecoleta-font-back/blob/master/ecoleta/assets/logo.svg)
-</p>
 
-<p align="justify">
+
+<p align="center">
  Desenvolvido em uma das aula online da Rocketseat
 </p>
 
