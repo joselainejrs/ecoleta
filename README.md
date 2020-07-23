@@ -1,7 +1,6 @@
 
-
 <p align="center">
-![Logo](https://github.com/joselainejrs/ecoleta-font-back/blob/master/ecoleta/assets/logo.svg)
+  <img  src="https://github.com/joselainejrs/ecoleta-font-back/blob/master/ecoleta/assets/logo.svg" alt="Imagem">
 </p>
 
 <p align="center">
