@@ -1,5 +1,11 @@
-# Projeto Ecolota
-Desenvolvido em uma das aula online da Rocketseat
+
+<p align="center">
+  <img  src="https://github.com/joselainejrs/ecoleta-font-back/blob/master/ecoleta/assets/logo.svg" alt="Imagem">
+</p>
+
+<p align="center">
+ Desenvolvido em uma das aula online da Rocketseat
+</p>
 
 ```
 # FrontEnd
