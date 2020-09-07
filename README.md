@@ -29,3 +29,8 @@ $ expo init mobile ecoleta
 $ npm start
 ```
 ![Imagem](https://github.com/joselainejrs/ecoleta-font-back/blob/master/mobile/src/assets/apresentacao.jpg)
+
+<h4 align="center">
+Projeto desenvolvido por: Joselaine Romão Soares
+</h4>
+
